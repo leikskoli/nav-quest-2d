@@ -1,1 +1,18 @@
-# nav-quest-2d
+# Nav Quest 2D
+
+A quick [Godot](https://godotengine.org/) project one may use to better understand the complexities of the `2D` viewport navigation.
+
+
+## Instructions
+
+Detailed project instructions begin here - [Nav Quest 2D](https://codeberg.org/leikskoli/dev-drills/src/branch/main/Booting/5.%20Nav%20Quest%202D/README.md).
+
+
+### 2D Viewport Navigation
+
+- Pan: `MMB` + drag
+- Zoom In: `MMW` + up
+- Zoom Out: `MMW` + down
+- Focus: `F`
+
+###### Last modified with: Godot 4.6.2
