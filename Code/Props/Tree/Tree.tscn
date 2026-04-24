@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cu72e8g24sv0l"]
+[gd_scene format=3 uid="uid://cu72e8g24sv0l"]
 
-[ext_resource type="PackedScene" path="res://Props/Circle.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Props/Square.tscn" id="2"]
-[ext_resource type="Texture2D" uid="uid://cju724bflc8av" path="res://Sprites/Square.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://78rrcx38oofw" path="res://Props/Circle.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://snysngcq2361" path="res://Props/Square.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cju724bflc8av" path="res://Props/Sprites/Square.png" id="3"]
 [ext_resource type="Script" uid="uid://g0ys5vs2r36d" path="res://Props/Tree/Tree.gd" id="4"]
 
 [node name="Tree" type="Node2D"]

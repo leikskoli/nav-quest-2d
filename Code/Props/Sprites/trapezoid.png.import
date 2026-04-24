@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqqnk62vpp4rw"
-path="res://.godot/imported/Circle.png-0c45e21435093ae348e4b37cb96ba5fa.ctex"
+uid="uid://ct8qiebaw2vui"
+path="res://.godot/imported/trapezoid.png-f4f7b2b4921249bbc7173ed0f8289b44.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Circle.png"
-dest_files=["res://.godot/imported/Circle.png-0c45e21435093ae348e4b37cb96ba5fa.ctex"]
+source_file="res://Props/Sprites/trapezoid.png"
+dest_files=["res://.godot/imported/trapezoid.png-f4f7b2b4921249bbc7173ed0f8289b44.ctex"]
 
 [params]
 

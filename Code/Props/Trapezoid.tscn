@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://djan5cw8xjumb"]
+[gd_scene format=3 uid="uid://djan5cw8xjumb"]
 
-[ext_resource type="Texture2D" uid="uid://ct8qiebaw2vui" path="res://Sprites/trapezoid.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ct8qiebaw2vui" path="res://Props/Sprites/trapezoid.png" id="1"]
 
 [node name="trapezoid" type="Sprite"]
 position = Vector2(149.135, -130.416)

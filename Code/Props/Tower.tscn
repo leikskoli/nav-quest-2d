@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://fapvtrw6ahl6"]
+[gd_scene format=3 uid="uid://fapvtrw6ahl6"]
 
-[ext_resource type="Texture2D" uid="uid://7w2ecdsoydw" path="res://Sprites/Triangle.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://cju724bflc8av" path="res://Sprites/Square.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://ct8qiebaw2vui" path="res://Sprites/trapezoid.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://7w2ecdsoydw" path="res://Props/Sprites/Triangle.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cju724bflc8av" path="res://Props/Sprites/Square.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ct8qiebaw2vui" path="res://Props/Sprites/trapezoid.png" id="3"]
 
 [node name="Tower" type="Node2D"]
 

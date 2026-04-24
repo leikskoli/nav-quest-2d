@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ct8qiebaw2vui"
-path="res://.godot/imported/trapezoid.png-eba247a59db282b121aa2044069a8789.ctex"
+uid="uid://c6dvg3i5ay63x"
+path="res://.godot/imported/elite_navigator.png-03855f41c33535aff2c9437b1dcb84d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/trapezoid.png"
-dest_files=["res://.godot/imported/trapezoid.png-eba247a59db282b121aa2044069a8789.ctex"]
+source_file="res://Props/Sprites/elite_navigator.png"
+dest_files=["res://.godot/imported/elite_navigator.png-03855f41c33535aff2c9437b1dcb84d5.ctex"]
 
 [params]
 

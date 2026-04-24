@@ -1,0 +1,164 @@
+[gd_scene format=3 uid="uid://3x4exkhm4lee"]
+
+[ext_resource type="Texture2D" uid="uid://c6dvg3i5ay63x" path="res://Props/Sprites/elite_navigator.png" id="1_87eea"]
+[ext_resource type="Texture2D" uid="uid://dqqnk62vpp4rw" path="res://Props/Sprites/Circle.png" id="2_cfl6m"]
+[ext_resource type="Texture2D" uid="uid://7w2ecdsoydw" path="res://Props/Sprites/Triangle.png" id="3_xryqd"]
+[ext_resource type="Texture2D" uid="uid://ct8qiebaw2vui" path="res://Props/Sprites/trapezoid.png" id="4_13c74"]
+[ext_resource type="PackedScene" uid="uid://fapvtrw6ahl6" path="res://Props/Tower.tscn" id="5_2yqxq"]
+[ext_resource type="PackedScene" uid="uid://cu72e8g24sv0l" path="res://Props/Tree/Tree.tscn" id="6_vs3qe"]
+
+[node name="Level2D" type="Node" unique_id=2113467922]
+
+[node name="BG2" type="Control" parent="." unique_id=1882009872]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="ColorRect" type="ColorRect" parent="BG2" unique_id=235815058]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.290196, 0.196078, 0.254902, 1)
+
+[node name="Frame" type="Sprite2D" parent="." unique_id=1055439587]
+position = Vector2(332.156, 360.156)
+rotation = -1.48867
+scale = Vector2(0.695822, 0.695822)
+texture = ExtResource("1_87eea")
+
+[node name="Moon" type="Sprite2D" parent="." unique_id=1712083143]
+modulate = Color(0.831373, 0.85098, 0.654902, 1)
+position = Vector2(277.517, 222.194)
+scale = Vector2(0.210029, 0.210029)
+texture = ExtResource("2_cfl6m")
+
+[node name="Mountains" type="Node2D" parent="." unique_id=2006271792]
+
+[node name="Triangle" type="Sprite2D" parent="Mountains" unique_id=1552073729]
+modulate = Color(0.592157, 0.239216, 0.639216, 1)
+position = Vector2(422.474, 285.126)
+rotation = -0.0379506
+scale = Vector2(1.31072, 0.871685)
+texture = ExtResource("3_xryqd")
+
+[node name="Triangle2" type="Sprite2D" parent="Mountains" unique_id=742866572]
+modulate = Color(0.545098, 0.133333, 0.603922, 1)
+position = Vector2(562.481, 405.334)
+rotation = 0.0599874
+scale = Vector2(1.31072, 0.871685)
+texture = ExtResource("3_xryqd")
+
+[node name="trapezoid2" type="Sprite2D" parent="Mountains" unique_id=2101211727]
+modulate = Color(0.486275, 0.113725, 0.443137, 1)
+position = Vector2(416.231, 397.207)
+rotation = -2.04867
+scale = Vector2(0.753722, 0.471851)
+texture = ExtResource("4_13c74")
+
+[node name="trapezoid" type="Sprite2D" parent="Mountains" unique_id=795660223]
+modulate = Color(0.396078, 0.0705882, 0.360784, 1)
+position = Vector2(614.221, 319.425)
+rotation = 0.0257259
+scale = Vector2(0.753722, 0.471851)
+texture = ExtResource("4_13c74")
+
+[node name="trapezoid4" type="Sprite2D" parent="Mountains" unique_id=1829139322]
+modulate = Color(0.396078, 0.0705882, 0.360784, 1)
+position = Vector2(182.179, 457.311)
+rotation = 2.54269
+scale = Vector2(0.919166, 0.710458)
+texture = ExtResource("4_13c74")
+
+[node name="trapezoid3" type="Sprite2D" parent="Mountains" unique_id=1205659553]
+modulate = Color(0.486275, 0.113725, 0.443137, 1)
+position = Vector2(478.583, 372.897)
+rotation = -2.04867
+scale = Vector2(0.753722, 0.421526)
+texture = ExtResource("4_13c74")
+
+[node name="Medow" type="Node2D" parent="." unique_id=1142012830]
+
+[node name="Circle2" type="Sprite2D" parent="Medow" unique_id=306455459]
+modulate = Color(0.270588, 0.482353, 0.313726, 1)
+position = Vector2(580.159, 476.045)
+rotation = -0.00250772
+scale = Vector2(1.88057, 0.471851)
+texture = ExtResource("2_cfl6m")
+
+[node name="Circle3" type="Sprite2D" parent="Medow" unique_id=2128022304]
+modulate = Color(0.494118, 0.560784, 0.113725, 0.596078)
+position = Vector2(413.279, 509.472)
+rotation = -0.00250772
+scale = Vector2(1.67051, 0.419143)
+texture = ExtResource("2_cfl6m")
+
+[node name="Circle4" type="Sprite2D" parent="Medow" unique_id=1438271297]
+modulate = Color(0.364706, 0.580392, 0.215686, 0.596078)
+position = Vector2(758.347, 558.97)
+rotation = -0.00250772
+scale = Vector2(1.67051, 0.419143)
+texture = ExtResource("2_cfl6m")
+
+[node name="Circle5" type="Sprite2D" parent="Medow" unique_id=1677801382]
+modulate = Color(0.168627, 0.478431, 0.188235, 0.803922)
+position = Vector2(310.041, 604.224)
+rotation = -0.00250772
+scale = Vector2(1.67051, 0.419143)
+texture = ExtResource("2_cfl6m")
+
+[node name="RoamingTower" parent="." unique_id=605120851 instance=ExtResource("5_2yqxq")]
+modulate = Color(0.388235, 0.662745, 0.67451, 1)
+position = Vector2(633, 374)
+rotation = -3.1415927
+scale = Vector2(0.22, -0.22)
+
+[node name="RoamingTower2" parent="." unique_id=2062559618 instance=ExtResource("5_2yqxq")]
+modulate = Color(1, 0.364706, 0.513726, 1)
+position = Vector2(334, 481)
+rotation = -3.1415927
+scale = Vector2(0.535999, -0.533481)
+
+[node name="Tree" parent="." unique_id=1191054246 instance=ExtResource("6_vs3qe")]
+position = Vector2(157.282, 588.495)
+
+[node name="Tree3" parent="." unique_id=1622391304 instance=ExtResource("6_vs3qe")]
+modulate = Color(0.517647, 0.188235, 0.85098, 1)
+position = Vector2(528, 553)
+rotation = 3.14159
+scale = Vector2(0.623856, -0.571663)
+
+[node name="Tree2" parent="." unique_id=200608403 instance=ExtResource("6_vs3qe")]
+modulate = Color(0.764706, 0.454902, 0.454902, 1)
+position = Vector2(880.924, 593.766)
+scale = Vector2(0.793921, 0.712574)
+
+[node name="ForeTower" parent="." unique_id=1311643196 instance=ExtResource("5_2yqxq")]
+modulate = Color(0.87451, 0.654902, 0.654902, 1)
+position = Vector2(751.919, 611.156)
+
+[node name="Cloud" type="Node2D" parent="." unique_id=1684397656]
+
+[node name="Circle" type="Sprite2D" parent="Cloud" unique_id=1172092337]
+modulate = Color(0.662745, 0.662745, 0.662745, 0.313726)
+position = Vector2(840.374, 104.814)
+scale = Vector2(1, 0.127165)
+texture = ExtResource("2_cfl6m")
+
+[node name="Circle2" type="Sprite2D" parent="Cloud" unique_id=526289989]
+modulate = Color(0.662745, 0.662745, 0.662745, 0.313726)
+position = Vector2(727.237, 89.2578)
+scale = Vector2(1, 0.127165)
+texture = ExtResource("2_cfl6m")
+
+[node name="Circle3" type="Sprite2D" parent="Cloud" unique_id=572128068]
+modulate = Color(0.662745, 0.662745, 0.662745, 0.313726)
+position = Vector2(802.19, 70.873)
+scale = Vector2(1.11049, 0.19898)
+texture = ExtResource("2_cfl6m")

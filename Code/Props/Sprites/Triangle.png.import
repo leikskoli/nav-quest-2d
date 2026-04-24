@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6dvg3i5ay63x"
-path="res://.godot/imported/elite_navigator.png-228fffa33a5cd49c5467c7dc30617531.ctex"
+uid="uid://7w2ecdsoydw"
+path="res://.godot/imported/Triangle.png-b0963dec49784b42cdc1b4ad2deb18fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Main/Textures/elite_navigator.png"
-dest_files=["res://.godot/imported/elite_navigator.png-228fffa33a5cd49c5467c7dc30617531.ctex"]
+source_file="res://Props/Sprites/Triangle.png"
+dest_files=["res://.godot/imported/Triangle.png-b0963dec49784b42cdc1b4ad2deb18fa.ctex"]
 
 [params]
 
